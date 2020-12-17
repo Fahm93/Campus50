@@ -5,6 +5,7 @@
 2. Database MySQL Minimal versi 5.7 atau MariaDB Minimal versi 10
 
 ## Instalasi
+1. Clone Project.
 1. Buat file .env, kemudian salin isinya dari .env.example atau cara mudahnya "save as" file .env.example menjadi .env
 2. Eksekusi perintah ini untuk membuat JWT_SECRET.
 `php artisan jwt:secret`
